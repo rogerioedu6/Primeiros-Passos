@@ -1,0 +1,112 @@
+body{
+background-color: aquamarine;
+
+}
+
+.logo{
+    position: relative;
+    text-align: center;
+}
+.capa{
+    position: relative;
+    text-align: left;
+}
+
+.menu, h1{
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: aqua;
+    color: black;
+  }
+  
+a {
+    text-decoration:none;
+}
+
+.formulario {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: aquamarine;
+    border-radius: 10px;
+  }
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+
+h2{
+    text-align: center;
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.contato{
+    text-align: center;
+}
+
+table {
+    width: 76%;
+    border-collapse: collapse;
+    margin:auto;
+
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+}
+
