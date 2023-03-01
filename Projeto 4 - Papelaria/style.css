@@ -1,0 +1,134 @@
+/*Formatação*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F2F5A9;
+}
+
+.logo{
+   text-align: center;
+}
+
+.main{
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffff;
+}
+
+/* Bordas dos menus*/
+.border-efect-home{
+    border-radius: 20px;
+    background-color:#FF00BF;
+    margin: 9px;
+    padding: 5px;
+    width: 1100px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-efect-produtos{
+    border-radius: 20px;
+    background-color: #04B404;
+    margin: 9px;
+    padding: 5px;
+    width: 1100px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-efect-contato{
+    border-radius: 20px;
+    background-color: #FF0000;
+    margin: 9px;
+    padding: 5px;
+    width: 1100px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-efect-sobre{
+    border-radius: 20px;
+    background-color:#0000FF;
+    margin: 9px;
+    padding: 5px;
+    width: 1100px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-efect-lojas{
+    border-radius: 20px;
+    background-color:#151515;
+    margin: 9px;
+    padding: 5px;
+    width: 1100px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* classes do menu de navegação*/
+.home{
+    background-color: #FF00BF;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.produtos{
+    background-color: #04B404;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.contato{
+    background-color:#FF0000;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.sobre{
+    background-color:#0000FF;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.lojas{
+    background-color: #151515;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/* Menu de navegação */
+.menu-nav{
+    text-align: center;
+    font-size: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 40px;
+}
+
+.menu-bar li{
+    display: inline;
+    padding: 10px;
+}
+
+.menu-bar a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu-bar a:hover{
+    color: #F8DF05;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+}
