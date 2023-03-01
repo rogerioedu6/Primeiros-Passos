@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    padding: 5px;
+}
+
+h2{
+    color: #FFBF00;
+}
+
+h3{
+    color: #585858;
+    background-color: #E6E6E6;
+}
+
+li {
+    list-style-type: none;
+}
+
+span{
+    color: #FFFFFF;
+}
+
+body{
+    background-color: #E6E6E6;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:link, a:visited{
+    color:#FFF;
+    padding: 8px, 12px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f7b600;
+    background:#FFF;
+}
+
+.container-menu-lateral a:link, .container-menu-lateral a:visited{
+    color:#f7b600;
+    padding: 8px, 12px;
+    text-decoration: none;
+}
+
+.container-menu-lateral a:hover{
+    color: #f7b600;
+    background:#FFF;
+}
+
+.container-nav-lateral a:link, .container-nav-lateral a:visited{
+    color:#f7b600;
+    padding: 8px, 12px;
+    text-decoration: none;
+}
+
+.container-nav-lateral a:hover{
+    color: #FFF;
+    background: #f7b600;
+}
+
+.container-nav-lateral-jogos a:link, .container-nav-lateral-jogos a:visited{
+    color:#f7b600;
+    padding: 8px, 12px;
+    text-decoration: none;
+}
+
+.container-nav-lateral-jogos a:hover{
+    color: #FFF;
+    background: #f7b600;
+}
+
+.container-menu-lateral-jogos a:link, .container-menu-lateral-jogos a:visited{
+    color:#f7b600;
+    padding: 8px, 12px;
+    text-decoration: none;
+}
+
+.container-menu-lateral-jogos a:hover{
+    color: #FFF;
+    background: #f7b600;
+}
+
+.container-main a:link, .container-main a:visited{
+    color:#f7b600;
+    padding: 8px, 12px;
+    text-decoration: none;
+}
+
+.container-main a:hover{
+    color: #f7b600;
+    background:#FFF;
+}
+
+.container-main-jogos a:link, .container-main-jogos a:visited{
+    color:#f7b600;
+    padding: 8px, 12px;
+    text-decoration: none;
+}
+
+.container-main-jogos a:hover{
+    color: #f7b600;
+    background:#FFF;
+}
+
+.container-top{
+    background-color: #FFBF00;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+}
+.container-menu{
+    margin: 20px;
+
+}
+
+.container-main{
+    margin: 20px 50px;
+    background-color: #FFFFFF;
+    height: 680px;
+    width: 900px;
+    padding: 30px;
+    float: left;
+}
+
+.container-main-jogos{
+    margin: 20px 50px;
+    background-color: #FFFFFF;
+    height: 680px;
+    width: 900px;
+    padding: 30px;
+    float: right;
+}
+
+.container-menu-lateral-jogos{
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px 10px;
+    text-align: center;
+    float: right;
+}
+
+.container-menu-lateral{
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px 10px;
+    text-align: center;
+    float: left;
+}
+
+footer{
+    text-align: center;
+    background-color: #585858;
+    color: #E6E6E6;
+    clear: both;
+}
